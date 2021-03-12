@@ -340,6 +340,7 @@ h2 {
   font-weight: 500;
   line-height: 1.19;
   letter-spacing: 0.03em;
+  margin-bottom: 10px;
 }
 
 .profession {
@@ -347,7 +348,6 @@ h2 {
   line-height: 1.19;
   letter-spacing: 0.03em;
   color: var(--text-color);
-  margin-top: 10px;
   margin-bottom: 16px;
 }
 
@@ -443,11 +443,11 @@ address .kontakt-link {
 
 .page-footer .container {
   display: flex;
+  align-items: baseline;
 }
 
 .join {
   margin-left: 70px;
-  padding-top: 12px;
   width: 206px;
 }
 
