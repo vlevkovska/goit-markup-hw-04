@@ -540,8 +540,17 @@ body .button-filter:active {
   margin-top: 30px;
 }
 
-.card-item:hover,
+/* .card-item:hover,
 .card-item:focus {
+  box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.25);
+} */
+
+.project-link {
+  display: block;
+}
+
+.project-link:hover,
+.project-link:focus {
   box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.25);
 }
 
